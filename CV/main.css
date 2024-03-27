@@ -1,0 +1,31 @@
+/*en css nos manejar en clases*/
+ .encabezado {
+    background-color: rgb(96, 131, 177);
+    color: aliceblue;
+ }
+ 
+ .alinear{
+     display: flex;
+     gap: 20px;
+ }
+  .foto{
+     width: 200px;
+  }
+.titulo-exp {
+   font-weight:bold; 
+}
+
+.parrafo-cursiva {
+    font-style: italic;
+}
+.bordes{
+    border-top: solid 0.5px black; 
+    border-bottom: solid 0.5px black; 
+}
+.caja-izquierda{
+    width: 30%;
+}
+
+.caja-derecha{
+    width: 105%;
+}

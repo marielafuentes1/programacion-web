@@ -1,0 +1,8 @@
+1.flexbox
+2.la propiedad que nos permite definer el espacio son el eje 
+principal y el eje cruzado
+3.
+4.Se pueden definir tamaños fijos usando la medida px por ejemplo,
+y también hay tamaños flexibles como puede ser con porcentaje 
+o bien con la unidad de medida fr
+5.

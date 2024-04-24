@@ -1,38 +1,49 @@
-.flex{
-    display: flex;
+.flex {
+  display: flex;
 }
 
-
 .tamaño {
-    width: 50% ;
-    aspect-ratio: 1 / 2;
-    object-fit: cover;
+  width: 70%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
 }
 
 .aliniamiento {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-   /* grid-template-rows: 250px;*/
-    gap: 20px;
+  display: grid;
+  grid-template-columns: repeat(3, 300px);
+  /* grid-template-rows: 250px;*/
+  grid-template-rows: repeat(3, 300px);
+  gap: 20px;
 }
-.caja {
-    background-image: url("Sin\ título.jpeg");
-}
-
-.alineamiento-foto{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    color: white;
+.fondo {
+  background-image: url("Sin\ título.jpeg");
 }
 
-.aliniamiento-header {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.alineamiento-foto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: black;
 }
 
-.color_fondo {
-    background-color: black;
-    border-radius: 90px;
+.columna {
+  display: grid;
+  grid-template-columns: repeat(3, 300px);
+  grid-auto-rows: auto;
+  gap: 15px;
+}
+
+.colorfondo1 {
+  background-color: rgb(56, 216, 149);
+  border-radius: 50px;
+}
+
+.colorfondo2 {
+  background-color: rgb(255, 198, 74);
+  border-radius: 50px;
+}
+
+.colorfondo3 {
+  background-color: rgb(100, 166, 228);
+  border-radius: 50px;
 }

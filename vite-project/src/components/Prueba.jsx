@@ -10,13 +10,15 @@ export function Prueba({nombre, apellido}) {
         <h1>
             Hola {nombre} {apellido} 
         </h1>
-    {
-        products.map((item) => (
-            <>{item.title}</>
-        )
-        )
-    }
-    
-    </>
-    );
-}
+               {products.map((producto, i) => {
+                return (
+                  <div key={producto.id}>
+                    <h2 className="bg-color">Title: {producto.title} </h2>
+                    <p>{producto.description}</p>
+                  </div>
+                );
+              })}
+            </>
+          );
+         }
+         

@@ -1,12 +1,12 @@
 import { Prueba } from "./components/Prueba"
+import CharacterList from "./components/rickymorti/rickymorti"
 
 function App() {
   
 
   return (
     <>
-      hola
-       <Prueba nombre={"Mariela"} apellido={"Fuentes"}/>
+    <CharacterList/>
     </>
   )
 }

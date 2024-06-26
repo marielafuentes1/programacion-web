@@ -1,0 +1,14 @@
+.bg-color {
+  color: rgb(29, 83, 29);
+}
+
+:root {
+  background-color: rgb(92, 174, 212);
+  color: white;
+}
+
+.grilla {
+  display: grid; /* Activamos CSS Grid en el contenedor */
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 15px;
+}

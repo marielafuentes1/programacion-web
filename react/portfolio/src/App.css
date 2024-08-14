@@ -1,6 +1,6 @@
 .App {
   font-family: Arial, sans-serif;
-  margin: 20px;
+  margin: 50px;
 }
 
 header,
@@ -11,11 +11,11 @@ section {
 h1,
 h2,
 h3 {
-  color: #333;
+  color: #12203a;
 }
 
 p {
-  line-height: 1.6;
+  line-height: 1.4;
 }
 
 img {
@@ -26,7 +26,7 @@ img {
 }
 
 a {
-  color: #007bff;
+  color: #142c46;
   text-decoration: none;
 }
 
@@ -36,7 +36,67 @@ a:hover {
 
 .project,
 .experience,
-.education,
-.testimonial {
+.education {
   margin-bottom: 20px;
+}
+
+.title-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 20px;
+}
+
+.line {
+  flex: 1;
+  border-bottom: 2px solid #19193b; /* Línea horizontal */
+  margin: 15px; /* Espaciado alrededor de la línea */
+}
+
+.title {
+  font-size: 3rem; /* Tamaño del título */
+  margin: 0; /* Quitar márgenes por defecto */
+}
+
+.encabzado {
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+}
+
+ul {
+  list-style: none;
+}
+
+.card {
+  width: 300px; /* Ancho del contenedor */
+  border: 1px solid #bb1515; /* Borde del contenedor */
+  border-radius: 10px; /* Esquinas redondeadas */
+  box-shadow: 0 4px 8px #a80a591a; /* Sombra sutil */
+  overflow: hidden; /* Evita que el contenido se desborde */
+  background-color: hsl(145, 88%, 37%); /* Fondo blanco */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+  margin: 20px; /* Espaciado entre tarjetas */
+}
+
+.card-image {
+  width: 100%; /* Ancho completo de la tarjeta */
+  height: auto; /* Ajusta la altura automáticamente */
+  border-bottom: 1px solid #ddd; /* Línea divisoria entre imagen y texto */
+}
+
+.card-title {
+  margin: 10px 0;
+  font-size: 1.5rem;
+  color: #333;
+}
+
+.card-description {
+  font-size: 1rem;
+  color: #666;
 }

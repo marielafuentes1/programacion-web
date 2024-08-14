@@ -1,6 +1,6 @@
 import React from "react";
 
-const Education = ({ degree, institution, period, description }) => {
+const Education = ({ degree, institution, periodo, description }) => {
   return (
     <div className="education">
       <h3>{degree}</h3>
@@ -8,7 +8,7 @@ const Education = ({ degree, institution, period, description }) => {
         <strong>Institución:</strong> {institution}
       </p>
       <p>
-        <strong>Periodo:</strong> {period}
+        <strong>Periodo:</strong> {periodo}
       </p>
       <p>{description}</p>
     </div>

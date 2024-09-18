@@ -17,7 +17,7 @@ const Header = () => {
           <a href="#contact">Contacto</a>
         </li>
       </ul>
-      <Title title={" Mariela Fuentes Barrios"} />
+      </Title title={" Mariela Fuentes Barrios"} />
     </header>
   );
 };

@@ -100,3 +100,11 @@ ul {
   font-size: 1rem;
   color: #666;
 }
+
+.borde {
+  border: 2px solid #838388; /* Cambia el color y el grosor del borde según tu preferencia */
+  border-radius: 8px; /* Opcional: añade bordes redondeados */
+  padding: 16px; /* Opcional: añade espacio interno */
+  margin: 16px; /* Opcional: añade espacio externo */
+  background-color: #ffffff; /* Opcional: cambia el color de fondo */
+}

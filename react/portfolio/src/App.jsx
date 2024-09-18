@@ -11,20 +11,18 @@ import "./App.css";
 const App = () => {
   const projects = [
     {
-      name: "Pokemones",
+      name: " Desarrollo de Tarjetas de Pokémon",
       description:
-        "Este es un proyecto que hice para [Cliente/Empresa]. Se enfoca en [breve descripción del proyecto].",
+        "Este proyecto consistió en el diseño y desarrollo de un conjunto de 3 tarjetas  dedicadas ala  serie de Pokémon. Cada tarjeta presenta detalles  sobre diferentes Pokémon, incluyendo su tipo, nombre ",
       techStack: ["HTML", "CSS", "JavaScript", "React"],
-      imageUrl: "http://url-de-la-imagen.com",
-      projectUrl: "http://enlace-al-proyecto.com",
+      projectUrl: "http://127.0.0.1:5500/ejercitacion.html/pokemon.html",
     },
     {
-      name: "ooo",
+      name: "Diseño y Desarrollo de una Cartelera de Películas",
       description:
-        "Este proyecto es una aplicación móvil diseñada para [breve descripción].",
+        "El proyecto consistió en el diseño y desarrollo de una cartelera de películas.",
       techStack: ["React Native", "Node.js", "MongoDB"],
-      imageUrl: "http://url-de-la-imagen.com",
-      projectUrl: "http://enlace-al-proyecto.com",
+      projectUrl: "http://127.0.0.1:5500/peliculas/index.html",
     },
   ];
 
@@ -50,18 +48,25 @@ const App = () => {
       <div className="App">
         <Header />
         <section>
-          <h2>Proyectos</h2>
-          {projects.map((project, index) => (
-            <Project key={index} {...project} />
-          ))}
+          <div className="borde">
+            <h2>Proyectos</h2>
+            {projects.map((project, index) => (
+              <Project key={index} {...project} />
+            ))}
+          </div>
         </section>
-        <Skills skills={skills} />
-
+        <div className="borde">
+          <Skills skills={skills} />
+        </div>
         <section>
-          <h2>Educación</h2>
-          <Education {...education} />
+          <div className="borde">
+            <h2>Educación</h2>
+            <Education {...education} />
+          </div>
         </section>
-        <Contact {...contact} />
+        <div className="borde">
+          <Contact {...contact} />
+        </div>
       </div>
     </body>
   );
